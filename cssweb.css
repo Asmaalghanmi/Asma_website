@@ -18,9 +18,9 @@
   text-align: left;
 }
 .hero-section {
-    background-image: url('Home.jpg'); /* Replace with your image URL */
+    background-image: url('Home.jpg'); 
     background-position: center;
-    height: 700px; /* Adjust height as needed */
+    height: 700px; 
    
     }
     
@@ -83,7 +83,7 @@ background: transparent;
   position: relative;
   width: 100%;
   max-width: 100vw;
-  height: 700px; /* Match your image height */
+  height: 700px; 
   overflow: hidden;
 }
 .hero-image {
@@ -133,10 +133,10 @@ background: transparent;
     border-radius: 100px;
   margin: 50px auto;
   display: flex;
-  justify-content:flex-start; /* push image to the left */
+  justify-content:flex-start; 
   align-items: center;
   background-color: #AFC7B4;
-  padding-left: 0px; /* small space from the left edge */
+  padding-left: 0px; 
   
  
 }
@@ -191,13 +191,13 @@ background: transparent;
   justify-content: space-between;
   margin-top: 90px;
   gap: 20px;
-  flex-wrap: nowrap; /* good for responsiveness */
+  flex-wrap: nowrap; 
     
 }
 .card {
   background-color: white;
   padding: 30px;
-  flex: 5; /* Flex-grow, flex-shrink, flex-basis */
+  flex: 5; 
   min-width: 250px;
   max-width: 33%;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -351,15 +351,15 @@ background: transparent;
     border-radius: 20px;
     font-family: "Montserrat", sans-serif;
     color: #000;
-     flex: 0 0 auto;        /* prevent cards from shrinking */
+     flex: 0 0 auto;        
       
-  scroll-snap-align: start; /* optional: aligns cards nicely */
+  scroll-snap-align: start; 
 }
 .experience-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap; /* Allows wrapping of cards */
-    gap: 10px; /* Space between cards */
+    flex-wrap: nowrap; 
+    gap: 10px; 
     padding: 10px;
     background-color: #ffffffc5;
 
@@ -406,11 +406,10 @@ font-size: 19px;
 
 .experience-scroll-container {
   display: flex;
-  overflow-x: auto;      /* enables horizontal scroll */
-  gap: 20px;             /* space between cards */
+  overflow-x: auto;      
+  gap: 20px;             
   padding: 20px;
-  scroll-snap-type: x mandatory; /* optional: nice scroll snapping */
-}
+  scroll-snap-type: x mandatory; 
 
 .Vist-date{
     font-size: 19px;
@@ -466,7 +465,7 @@ font-size: 19px;
     width: 100px !important;
     height: auto !important;
     display: block;
-    margin: 10px auto 0 auto !important; /* يوسّطهم */
+    margin: 10px auto 0 auto !important; 
   }
 
   .AI-date, .Link-date, .Vist-date {
@@ -482,7 +481,7 @@ font-size: 19px;
     padding: 0 5px;
   }
 
-  /* نخلي البطاقات تسمح بمساحة للداخل */
+ 
   .experience-card {
     height: auto !important;
     padding-bottom: 15px;
@@ -505,7 +504,7 @@ font-size: 19px;
     background-color: rgb(215, 215, 215);
 }
 .skills-section {
-  background-color: #f9f1ee; /* light beige-pink */
+  background-color: #f9f1ee;
   padding: 60px 30px;
   font-family: "Montserrat", sans-serif;
 }
@@ -527,7 +526,7 @@ font-size: 19px;
   overflow-x: auto;
   gap: 30px;
   padding: 25px;
-  background-color: #dcdada; /* soft gray */
+  background-color: #dcdada; 
   border-radius: 15px;
   scroll-behavior: smooth;
   margin-bottom: 60px;
@@ -560,8 +559,8 @@ font-size: 19px;
 }
 
 .back {
-  background-color: #EEECEC; /* Set once here */
-  padding: 60px 0; /* Optional spacing */
+  background-color: #EEECEC; 
+  padding: 60px 0; 
 }
 
 
@@ -573,9 +572,9 @@ font-size: 19px;
   text-align: center;
   word-spacing: 6px;
   letter-spacing: 2px;
-  margin-top: 0; /* Remove top margin if inside .back */
+  margin-top: 0; 
   font-family: "Montserrat", sans-serif;
-  background-color: transparent; /* <- important */
+  background-color: transparent; 
 }
 
 .Certificate-container {
@@ -585,7 +584,7 @@ font-size: 19px;
   padding: 20px;
   border-radius: 20px;
   scroll-behavior: smooth;
-  background-color: transparent; /* <- important */
+  background-color: transparent; 
 }
 
 .Certificate-card {
@@ -700,7 +699,7 @@ font-size: 19px;
     color: #776d6d;
 }
 
-/* Responsive styles for contact section */
+
 @media (max-width: 768px) {
     .contact-row {
         flex-direction: column;
@@ -713,7 +712,7 @@ font-size: 19px;
     }
 }
 
-/* Footer Contact Section Styles */
+
 .footer-contact {
     background: #463e3e;
     color: #fff;
@@ -757,7 +756,7 @@ font-size: 19px;
     font-family: 'Montserrat', Arial, sans-serif;
 }
 
-/* Remove hover and transition effects for now */
+
 .contact-link, .footer-icon-bg, .footer-icon {
     transition: none;
 }
@@ -776,14 +775,14 @@ font-size: 19px;
 }
 
 
-/* Projects Section Container */
+
 .projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 60px 20px;
-    background-color: #ffffffc5; /* Matches your about/what-i-do background */
+    background-color: #ffffffc5; 
 }
 
 .projects-text {
@@ -794,7 +793,7 @@ font-size: 19px;
     font-family: "Montserrat", sans-serif;
 }
 
-/* Reusing your card container logic */
+
 .projects-section .cards-container {
     display: flex;
     justify-content: center;
@@ -803,9 +802,9 @@ font-size: 19px;
     flex-wrap: wrap; 
 }
 
-/* Project Card Styling */
+
 .projects-section .card {
-    background-color: #d8dddc; /* Matches your existing card color */
+    background-color: #d8dddc; 
     padding: 30px;
     flex: 1;
     min-width: 300px;
@@ -813,8 +812,7 @@ font-size: 19px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border-radius: 12px;
     text-align: center;
-    transition: transform 0.3s ease; /* Smooth hover effect for creativity points */
-}
+    transition: transform 0.3s ease; 
 
 .projects-section .card:hover {
     transform: translateY(-10px); 
@@ -833,7 +831,7 @@ font-size: 19px;
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #463e3e; /* Matches your footer color */
+    background-color: #463e3e; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -845,10 +843,10 @@ font-size: 19px;
     background-color: #000;
 }
 
-/* Mandatory Responsiveness Requirements (576px, 768px, 992px) */
+
 @media (min-width: 992px) {
     .projects-section .cards-container {
-        flex-wrap: nowrap; /* Side-by-side on large screens */
+        flex-wrap: nowrap; 
     }
 }
 
@@ -861,6 +859,6 @@ font-size: 19px;
 
 @media (max-width: 576px) {
     .projects-section .card {
-        min-width: 100%; /* Full width on small phones */
+        min-width: 100%; 
     }
 }
